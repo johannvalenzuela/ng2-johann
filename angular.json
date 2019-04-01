@@ -23,9 +23,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bulma/css/bulma.min.css",
+              "node_modules/bulma-timeline/dist/css/bulma-timeline.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css",
+              "node_modules/bulma-quickview/dist/css/bulma-quickview.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bulma-quickview/dist/js/bulma-quickview.min.js"
+            ]
           },
           "configurations": {
             "production": {
